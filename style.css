@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+#menu {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0,0,0,0.8);
+  padding: 20px;
+  border-radius: 12px;
+  z-index: 10;
+}
+
+#menu h1 {
+  margin-top: 0;
+}
+
+#menu label {
+  display: block;
+  margin-top: 10px;
+}
+
+#menu input, #menu select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#menu button {
+  width: 100%;
+  padding: 10px;
+  background: cyan;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+canvas {
+  display: block;
+}
